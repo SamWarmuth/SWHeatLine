@@ -31,7 +31,7 @@
     self = [super initWithCoder:aDecoder];
     if (self) {
         // Initialization code
-        self.values = @[@0,@10,@20,@70,@40,@50,@60,@70,@80,@90,@100,@100,@80,@60,@40,@60,@80,@80,@80,@100,@100];
+        self.values = @[@0,@100];
         self.type = SWHeatLineTypeGrades;
     }
     return self;
